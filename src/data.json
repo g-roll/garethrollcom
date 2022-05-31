@@ -1,0 +1,28 @@
+{
+    "latest": [
+        {
+            "title":"simplestCMS",
+            "engagement":"Development",
+            "thumbnail":"/assets/img/npmjs.com_package_@g-roll_simplestcms.webp",
+            "link":"https://github.com/g-roll/simplestcms/"
+        },
+        {
+            "title":"webagentur.hamburg",
+            "engagement":"Design & Development",
+            "thumbnail":"/assets/img/webagentur-hamburg.webp",
+            "link":"https://webagentur.hamburg/"
+        },
+        {
+            "title":"AI-driven tweet generator",
+            "engagement":"Guest Blogost",
+            "thumbnail":"/assets/img/n8n.io-blog-ai-powered-tweet-generator.webp",
+            "link":"https://n8n.io/blog/ai-powered-tweet-generator/"
+        },
+        {
+            "title":"simplest.",
+            "engagement":"Design & Development",
+            "thumbnail":"/assets/img/simplest-host.webp",
+            "link":"https://simplest.host/"
+        }
+    ]
+}

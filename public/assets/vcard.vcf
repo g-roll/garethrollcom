@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=UTF-8:Roll;Gareth;;;
+FN;CHARSET=UTF-8: Gareth Roll
+TITLE;CHARSET=UTF-8:Developer
+URL;PRIVATE:https://garethroll.com
+EMAIL;type=WORK;type=PREF:hello@garethroll.com
+EMAIL;type=INTERNET:roll@webagentur.hamburg
+TEL;type=WORK;VOICE:+4940607734010
+TEL;type=CELL;MOBILE:+491625776769
+REV:2022-04-13T13:44:20+02:00
+END:VCARD

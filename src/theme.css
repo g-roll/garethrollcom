@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+h1, h1 ~ div {
+  will-change: transform;
+  animation: translateinfinite 8s infinite linear;
+  transform: translateX(0%);
+}
+
+@keyframes translateinfinite {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (min-width: 768px) {
+  h1, h1 ~ div {
+    will-change: transform;
+    animation: translateinfinite 20s infinite linear;
+    transform: translateX(0%);
+  }
+
+  @keyframes translateinfinite {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+}
+
+.rotate-90:hover, :focus, :active {
+  animation: arrow-down-hover 1.5s forwards ease;
+}
+
+
+@keyframes arrow-down-hover {
+  0% {
+    transform: rotate(90deg) translateX(0px);
+  }
+
+  50% {
+    transform: rotate(90deg) translateX(-50px);
+  }
+
+  100% {
+    transform: rotate(90deg) translateX(0px);
+  }
+}
+
+.float-right:hover, :focus, :active {
+  animation: arrow-right-hover 1.5s infinite ease;
+}
+
+@keyframes arrow-right-hover {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(-30px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
